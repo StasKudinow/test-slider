@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope&family=PT+Sans+Caption&display=swap">
+  <title>Test Slider</title>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <nav class="nav">
+        <a class="nav__link" href="#">Главная</a>
+        <p class="nav__arrow">→</p>
+        <a class="nav__link" href="#">Портфолио</a>
+        <p class="nav__arrow">→</p>
+        <p class="nav__text">Кафе-Пекарня “ПОД КЛЮЧ”</p>
+      </nav>
+    </header>
+
+    <main>
+      <section class="promo">
+        <h1 class="promo__title">Кафе-Пекарня «ПОД КЛЮЧ»</h1>
+        <div class="promo__container">
+          <p class="promo__text">Дизайн проект и поставка технологического оборудования для Кафе-Пекарни «ПОД КЛЮЧ»</p>
+          <div class="promo__buttons">
+            <button class="promo__button promo__button_prev" type="button">
+            <button class="promo__button promo__button_next" type="button">
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="slider__line">
+          <img class="slider__image slider__image_large" src="./images/test_img_1.jpg" alt="картинка">
+          <img class="slider__image" src="./images/test_img_2.jpg" alt="картинка">
+          <img class="slider__image" src="./images/test_img_3.jpg" alt="картинка">
+          <img class="slider__image" src="./images/test_img_4.jpg" alt="картинка">
+          <img class="slider__image" src="./images/test_img_5.jpg" alt="картинка">
+        </div>
+        <div class="slider__info">
+          <p class="slider__text">Понравился проект?<br>Оставьте заявку на индивидуальный расчет для вас</p>
+          <button class="slider__button" type="button">
+            <p class="slider__button-text">Получить КП</p>
+            <img src="./images/slider_button.png" alt="кнопка">
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
