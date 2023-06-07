@@ -142,6 +142,10 @@
   transition: all .8s ease;
 }
 
+.slider__image:hover {
+  cursor: pointer;
+}
+
 .slider__image_large {
   width: 465px;
   height: 316px;
